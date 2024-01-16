@@ -1,0 +1,48 @@
+/* Mulish Google Font Use */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+/* everyWhere */
+
+.color-tittle {
+    color: #FF5400;
+}
+
+
+/* header */
+/* content-header */
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.logo-box {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.tittle {
+    color: #131318;
+    font-size: 2.75rem;
+    font-weight: 800;
+}
+
+.content-header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.content-header a {
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 1.27rem;
+}
+
+.anchor-tittle {
+    color: #424247;
+}
+
