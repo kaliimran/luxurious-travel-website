@@ -2,10 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
 
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
 /* everyWhere */
 
 .color-tittle {
     color: #FF5400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+    padding: 16px 35px 16px 35px;
 }
 
 
@@ -16,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 200px;
+    padding: 40px 368px 50px 368px;
 }
 
 .logo-box {
@@ -40,9 +52,74 @@
     text-decoration: none;
     margin-left: 40px;
     font-size: 1.27rem;
+    font-weight: 700;
 }
 
 .anchor-tittle {
     color: #424247;
 }
 
+
+/* Banner Section */
+
+.banner-img {
+    background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+}
+
+.banner-content {
+    display: grid;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.banner-tittle {
+    color: #FFF;
+    font-size: 4rem;
+    padding-top: 106px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    width: 676px;
+    font-weight: 400;
+    padding: 0px 0 24px 0;
+}
+
+.input-field {
+   width: 800px;
+   background-color: rgba(255, 255, 255, 0.30);
+   padding: 16px;
+   margin-bottom: 100px;
+}
+
+#go-text {
+    width: 95px;
+    /* height: 52px; */
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+
+#date-select {
+    width: 174px;
+    border-radius: 8px;
+    padding: 16px 84px 16px 16px;
+    margin-right: 24px;
+}
+#type-select {
+    width: 174px;
+    border-radius: 8px;
+    padding: 16px 64px 16px 16px;
+    margin-right: 24px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    
+}
